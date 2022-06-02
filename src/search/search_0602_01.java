@@ -14,8 +14,8 @@ public class search_0602_01 {
         if (graph[x][y] == 0) {
             graph[x][y] = 1;
             dfs(x - 1, y); //상
-            dfs(x, y - 1); //좌
             dfs(x + 1, y); //하
+            dfs(x, y - 1); //좌
             dfs(x, y + 1); //우
             return true;
         }
