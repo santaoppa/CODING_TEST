@@ -17,7 +17,6 @@ class Node{
 }
 
 public class search_0519_01 {
-
     public static ArrayList<ArrayList<Node>> graph = new ArrayList<ArrayList<Node>>();
 
     public static void main(String[] args){
