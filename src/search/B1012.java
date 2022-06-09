@@ -10,7 +10,7 @@ public class B1012 {
         if(x<=-1||x>=M||y<=-1||y>=N) return false;
 
         if(map[x][y]==1){
-            map[x][y]=2;
+            map[x][y]=0;
             dfs(x-1,y);
             dfs(x+1,y);
             dfs(x,y-1);
