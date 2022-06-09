@@ -44,6 +44,7 @@ public class B1012 {
                     }
                 }
             }
+
             System.out.println(result);
         }
     }
