@@ -25,7 +25,6 @@ public class search_0607 {
     public static int n, m;
     public static int[][] graph = new int[201][201];
 
-    // 이동할 네 가지 방향 정의 (상, 하, 좌, 우) 
     public static int dx[] = {-1, 1, 0, 0};
     public static int dy[] = {0, 0, -1, 1};
 

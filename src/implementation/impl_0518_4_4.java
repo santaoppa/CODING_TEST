@@ -66,10 +66,7 @@ public class impl_0518_4_4 {
                     x = nx;
                     y = ny;
                     turn_cnt = 0;
-                }else {
-                    //3-2. 한칸 뒤로 갈 수 없는 경우에는 움직임을 멈춘다.
-                    break;
-                }
+                }else break; //3-2. 한칸 뒤로 갈 수 없는 경우에는 움직임을 멈춘다.
             }
         }
         System.out.println(visit_cnt);

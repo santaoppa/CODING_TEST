@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class B2606 {
     public static int[][] node;
     public static boolean[] visited;
-    public static int M,N;
-    public static int result = 0;
+    public static int M,N, result;
 
     public static void dfs(int x){
         visited[x] = true;
@@ -20,10 +19,9 @@ public class B2606 {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-
         M = sc.nextInt();
         N = sc.nextInt();
-
+        result = 0;
         node = new int[M+1][M+1];
         visited = new boolean[M+1];
 
@@ -35,6 +33,5 @@ public class B2606 {
 
         dfs(1);
         System.out.println(result-1);
-
     }
 }

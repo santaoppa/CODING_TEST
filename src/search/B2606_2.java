@@ -24,17 +24,14 @@ public class B2606_2 {
                 }
             }
         }
-
         return result;
     }
 
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
-
         M = sc.nextInt();
         N = sc.nextInt();
-
         node = new int[M+1][M+1];
         visited = new boolean[M+1];
 
@@ -43,7 +40,6 @@ public class B2606_2 {
             int n = sc.nextInt();
             node[m][n] = node[n][m] = 1;
         }
-
         System.out.println(bfs(1));
     }
 }
