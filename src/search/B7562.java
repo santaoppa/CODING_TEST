@@ -24,7 +24,7 @@ public class B7562 {
 
                 if(0<=nx && nx < col && 0 <= ny & ny < col && !visited[nx][ny] ){
                     visited[nx][ny] = true;
-                    map[nx][ny] = map[temp.getX()][temp.getY()] + 1;	//전의 이동 횟수에 +1 씩 더해주며 이동 횟수를 증가시켜준다.
+                    map[nx][ny] = map[temp.getX()][temp.getY()] + 1;
                     que.add(new Node(nx,ny));
                 }
             }
