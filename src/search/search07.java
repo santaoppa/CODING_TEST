@@ -1,7 +1,5 @@
 package search;
 
-import com.sun.xml.internal.bind.v2.model.annotation.AbstractInlineAnnotationReaderImpl;
-
 import java.util.Scanner;
 
 public class search07 {
