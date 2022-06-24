@@ -2,7 +2,7 @@ package search;
 
 import java.util.Scanner;
 
-public class search_0602_01 {
+public class search04 {
     public static int n, m;
     public static int[][] graph = new int[1000][1000];
 

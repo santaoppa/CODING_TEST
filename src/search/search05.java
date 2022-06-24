@@ -20,7 +20,7 @@ class Node {
     }
 }
 
-public class search_0607 {
+public class search05 {
 
     public static int n, m;
     public static int[][] graph = new int[201][201];

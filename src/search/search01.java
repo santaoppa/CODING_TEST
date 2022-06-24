@@ -1,6 +1,6 @@
 package search;
 
-public class search_0519_02 {
+public class search01 {
 
     public static final int INF = 999999999;
 

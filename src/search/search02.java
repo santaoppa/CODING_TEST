@@ -2,7 +2,7 @@ package search;
 
 import java.util.ArrayList;
 
-public class search_0601_01 {
+public class search02 {
     public static boolean[] visited = new boolean[9];
     public static ArrayList<ArrayList<Integer>> graph = new ArrayList<ArrayList<Integer>>();
 
