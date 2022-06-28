@@ -2,7 +2,7 @@ package search;
 
 import java.util.*;
 
-public class B2606b {
+public class B2606B {
     public static int[][] node;
     public static boolean[] visited;
     public static int M,N;
