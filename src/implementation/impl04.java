@@ -2,7 +2,7 @@ package implementation;
 
 import java.util.Scanner;
 
-public class impl_0516_4_4 {
+public class impl04 {
 
     public static int n, m, x, y, direction;
     public static int[][] d = new int[50][50];

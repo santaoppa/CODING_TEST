@@ -2,7 +2,7 @@ package implementation;
 
 import java.util.Scanner;
 
-public class impl_0516_4_3 {
+public class impl03 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

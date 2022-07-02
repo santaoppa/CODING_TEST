@@ -2,7 +2,7 @@ package implementation;
 
 import java.util.Scanner;
 
-public class impl_0518_4_4 {
+public class impl05 {
 
     public static int[][] map;   // 맵
     public static int[][] visit; // 방문여부

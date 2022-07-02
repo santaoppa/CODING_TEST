@@ -2,7 +2,7 @@ package grid;
 
 import java.util.Scanner;
 
-public class grid_0511_3_3 {
+public class grid04 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
