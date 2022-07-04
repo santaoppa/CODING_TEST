@@ -2,7 +2,7 @@ package search;
 
 import java.util.*;
 
-public class B1920 {
+public class BOJ1920a {
 
     static int N, M;
 

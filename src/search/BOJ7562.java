@@ -1,7 +1,7 @@
 package search;
 import java.util.*;
 
-public class B7562 {
+public class BOJ7562 {
     public static int col, curX, curY, goalX, goalY;
     public static int map[][];
     public static boolean visited[][];

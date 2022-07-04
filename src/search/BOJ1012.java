@@ -2,7 +2,7 @@ package search;
 
 import java.util.Scanner;
 
-public class B1012 {
+public class BOJ1012 {
     public static int M, N, K;
     public static int[][] map;
 

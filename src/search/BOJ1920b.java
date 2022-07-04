@@ -2,7 +2,7 @@ package search;
 
 import java.util.*;
 
-public class B1920B {
+public class BOJ1920b {
 
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);

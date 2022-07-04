@@ -3,7 +3,7 @@ package search;
 import java.io.*;
 import java.util.*;
 
-public class B1260 {
+public class BOJ1260 {
     static int N,M,V;
     static int[][] dfs, bfs;
     static boolean[] dVisited, bVisited;

@@ -2,7 +2,7 @@ package sorting;
 
 import java.util.*;
 
-public class B2751{
+public class BOJ2751 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
