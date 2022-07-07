@@ -27,7 +27,6 @@ public class BOJ1932 {
         for(int i=1; i<=n; i++) {
             if(result < d[n][i]) result = d[n][i];
         }
-
         System.out.println(result);
     }
 }
