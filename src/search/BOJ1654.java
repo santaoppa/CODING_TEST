@@ -9,8 +9,8 @@ public class BOJ1654 {
 
         int K = sc.nextInt();
         long N = sc.nextLong();
-
         long[] arr = new long[K];
+
         for (int i = 0; i < K; i++) {
             arr[i] = sc.nextLong();
         }
@@ -37,4 +37,5 @@ public class BOJ1654 {
         System.out.println(end);
     }
 }
+
 
