@@ -25,5 +25,4 @@ public class BOJ2156 {
         }
         System.out.println(dp[n]);
     }
-
 }
