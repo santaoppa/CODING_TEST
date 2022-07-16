@@ -23,3 +23,4 @@ public class BOJ2579 {
         System.out.println(dp[N]);
     }
 }
+
