@@ -39,7 +39,7 @@ public class graph10 {
         }
 
         // 위상 정렬을 수행한 결과 출력
-        for (int i = 0; i <= v; i++) {
+        for (int i = 1; i <= v; i++) {
             System.out.println(result[i]);
         }
     }
@@ -53,17 +53,19 @@ public class graph10 {
             graph.add(new ArrayList<Integer>());
         }
 
-        for (int i = 0; i <= v; i++) {
+        for (int i = 1; i <= v; i++) {
             int x = sc.nextInt();
             times[i] = x;
 
-            while(true){
+            while (true) {
                 x = sc.nextInt();
-                if ( x == -1) break;
+                if (x == -1) break;
                 indegree[i] += 1;
                 graph.get(x).add(i);
             }
         }
+
+        System.out.println(graph);
 
         topologySort();
     }
