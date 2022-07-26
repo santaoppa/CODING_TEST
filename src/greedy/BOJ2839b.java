@@ -1,4 +1,4 @@
-package grid;
+package greedy;
 
 import java.io.InputStreamReader;
 import java.io.BufferedReader;

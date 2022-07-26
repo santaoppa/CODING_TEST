@@ -1,8 +1,8 @@
-package grid;
+package greedy;
 
 import java.util.Scanner;
 
-public class grid04 {
+public class greedy04 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

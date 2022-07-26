@@ -1,8 +1,8 @@
-package grid;
+package greedy;
 
 import java.util.Scanner;
 
-public class grid06 {
+public class greedy05 {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -10,17 +10,20 @@ public class grid06 {
         int k = sc.nextInt();
         int result = 0;
 
-        while(true){
-            int target = (n/k)*k;
-            result += (n-target);
-            n = target;
-
-            if(n<k) break;
-            result += 1;
+        while(n>=k){
+            if(n%k != 0){
+                n -= 1 ;
+                result += 1;
+            }
             n /= k;
+            result += 1;
         }
 
-        result += (n-1);
+        while(n>1){
+            n -= 1;
+            result += 1;
+        }
+
         System.out.println(result);
     }
 }
